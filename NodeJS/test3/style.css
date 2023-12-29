@@ -1,0 +1,75 @@
+@font-face { 
+	font-family: abas;
+	src: url('B-NAZANIN.TTF'); 
+}
+
+.align-right {
+	text-align: right; 
+}
+
+.align-center {
+	text-align: center; 
+}
+
+.my-box {
+	font-family: abas, sens-serif;
+	font-size: 18px; 
+	text-align: right; 
+	width: 300px; 
+	height: 20px; 
+}
+
+.my-box2 {
+	font-family: abas, sens-serif; 
+	font-size: 18px; 
+	text-align: right; 
+	width: 308px; 
+	height: 26px; 
+}
+
+
+/*.wrapper {
+	background-color: red; 
+	padding: 20px; 
+}*/
+
+
+
+body {
+	background-image: url('image1.jpg'); 
+	background-size: cover; 
+}
+
+
+
+
+.submit-button {
+	background-color: #054a29; 
+	text-align: center; 
+	justify-content: center; 
+	display: flex; 
+	align-items: center; 
+	color: white; 
+}
+
+.container {
+  font-family: abas, sens-serif;
+  font-size: 20px; 
+  font-weight: bold; 
+  text-align: right; 
+  width: 400px;
+  margin: 0 auto; 
+  padding: 20px;
+  background-color: #b9fbc0;
+  color: black;
+  border: 3px solid black; 
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+}

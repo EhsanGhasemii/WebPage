@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Student Application</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1 class="align-center">فرم ثبت نام</h1>
+    <form action="submit.php" method="POST">
+      <label for="name">نام و نام خانوادگی:</label>
+      <input type="text" id="name" name="name" class="my-box" placeholder="نام و نام خانوادگی خود را وارد کنید" required><br>
+
+	  <label for="phone">شماره تلفن</label>
+      <input type="tel" id="phone" name="phone" class="my-box" placeholder="09112223333" required><br>
+
+      <label for="majority">رشته تحصیلی</label>
+	  
+
+	  <select type="text" id="majority" name="majority" class="my-box2" required><br>
+  <option value="" selected disabled></option>
+  <option value="Computer Science">علوم کامپیوتر</option>
+  <option value="Engineering">مهندسی کامپیوتر</option>
+  <option value="Mathematics">مهندسی برق</option>
+</select>
+
+
+
+      <label for="username">نام کاربری</label>
+      <input type="text" id="username" name="username" class="my-box" placeholder="نام کاربری مدنظر را وارد کنید" required><br>
+
+      <label for="password">رمز عبور</label>
+      <input type="password" id="password" name="password" class="my-box" placeholder="رمز عبور 8 رقمی را وارد کنید" required><br>
+
+      <input type="submit" value="ارسال" class="submit-button">
+    </form>
+  </div>
+</body>
+</html>
